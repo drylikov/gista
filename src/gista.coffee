@@ -1,6 +1,3 @@
-# The Node Gist CLI Tool
-# ======================
-#
 # A handy little tool that allows you to use Gist like a unix pro.
 Client   = require('node-gist').Client
 nopt     = require 'nopt'
