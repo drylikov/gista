@@ -15,7 +15,7 @@ Usage
 =====
 
 # Set your password etc.
-git config --global github.user Tim-Smart
+git config --global github.user drylikov 
 git config --global github.password xxx
 
 # Create a Public gist
