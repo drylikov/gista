@@ -1,0 +1,34 @@
+   ____ _(_)____/ /_____ _
+  / __ `/ / ___/ __/ __ `/
+ / /_/ / (__  ) /_/ /_/ / 
+ \__, /_/____/\__/\__,_/  
+/____/
+
+The cli gist client writen in CoffeeScript for Node.js.
+
+Install
+=======
+
+$ npm install -g gista
+
+Usage
+=====
+
+# Set your password etc.
+git config --global github.user Tim-Smart
+git config --global github.password xxx
+
+# Create a Public gist
+$ echo "test" | gista
+
+# Create a private gist
+$ echo "test" | gista -p
+
+# Gist some files privately, with a description and custom type.
+$ gista -t js -pd "Cool gist" *.js
+
+# Fetch a gist
+$ gista -f 12345
+
+# Copy gist url to clipboard
+$ gista -pn test.js < package.js | xclip -selection clipboard

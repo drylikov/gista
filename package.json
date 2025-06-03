@@ -1,0 +1,18 @@
+{
+  "name": "gista",
+  "description": "Simple cli utility for using gist.github.com like a unix pro.",
+  "version": "0.2.6",
+  "author": "",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "dependencies": {
+    "node-gist": ">=0.0.2",
+    "nopt": ">=1.0.4",
+    "async-array": "0.1.x"
+  },
+  "bin": {
+    "gista": "./bin/gista"
+  }
+}
